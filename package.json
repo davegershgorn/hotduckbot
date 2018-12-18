@@ -1,0 +1,19 @@
+{
+  "name": "hotduckbot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dave gershgorn",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.377.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "claudia": "^5.2.0"
+  },
+  "keywords": [],
+  "description": ""
+}

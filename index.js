@@ -111,6 +111,11 @@ exports.handler = function(event, context, callback){
 
 
       }
+    // funtional code goes here ... with the 'event' and 'context' coming from
+    // whatever calls the lambda function (like CloudWatch or Alexa function).
+    // callback function goes back to the caller.
+
+    // format is callback(error, response);
 function getPage (YESORNO){
 
 var page = `<!DOCTYPE html>
